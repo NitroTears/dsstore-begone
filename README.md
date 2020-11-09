@@ -1,7 +1,7 @@
 DS_Store Begone
 ========================
 
-This is a simple program I wrote that can remove all .DS_Store files from a selected drive.
+This is a simple program I wrote that can remove all .DS_Store and other trash files from a selected drive.
 
 The exact files and folders removed from the drive are:
 -   The ``.fseventsd`` folder.
