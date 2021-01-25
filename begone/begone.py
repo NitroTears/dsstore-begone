@@ -9,7 +9,6 @@ def startmessage():
     print("this also includes the folders '.Trashes', '.Spotlight-V100, and '.fseventsd'.")
     print("Please select your chosen drive with the letter associated with it")
     print("Operations will begin as soon as drive is selected")
-    start()
 
 def start():
     choice = input("Input a letter to choose a Drive (such as C, D, E ect.): ")
@@ -60,5 +59,7 @@ def walkfiles(drive):
 
 def replay():
     start()
-
+    
+    
+startmessage()
 start()
